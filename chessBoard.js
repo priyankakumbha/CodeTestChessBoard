@@ -58,9 +58,9 @@ var generateBoard = function(size,squareSize)
   var tempArr=[];
   if(columnIndex == 1)
   {
-    var columnPattern ="+"+getColumnPattern(rowIndex,columnIndex,size)+"+";
+    var columnPattern = "+"+getColumnPattern(rowIndex,columnIndex,size)+"+";
   }else{
-    var columnPattern =getColumnPattern(rowIndex,columnIndex,size)+"+";
+    var columnPattern = getColumnPattern(rowIndex,columnIndex,size)+ "+";
   }
     if(rowIndex == 1)
     {
