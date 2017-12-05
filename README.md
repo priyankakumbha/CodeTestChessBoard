@@ -8,5 +8,6 @@ I have build this logic in JavaScript.
 User can enter number of square size and board size based after clicking submit button user can see checker board.
 
 # How to run locally
-User can download this project to local machine run the index page in browser.Make sure JavaScript is enabled.
+User can download this project to local machine run the index.html page in browser.
 Or alternatively user can access below link directly from the internet.This is hosted on github server.
+https://priyankakumbha.github.io/CodeTestChessBoard/
