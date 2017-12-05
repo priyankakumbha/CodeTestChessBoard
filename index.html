@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+
+  <title>ChessBoard</title>
+</head>
+<body>
+
+  <div id="container">
+    <div class="form-group">
+    <label for="Square Size">Square Size:</label>
+    <input id="squareSize" type="text" name="SquareSize" value="1">
+  </div>
+  <div class="form-group">
+  <label for="boardSize">Board Size: </label>
+  <input id="boardSize" type="text" name="BoardSize" value="4">
+</div>
+
+  <div ><input id ="genearteBoard" class="btn btn-default" type="submit" value="Submit"></div>
+</div>
+<div class="chessBoardTable"></div>
+</body>
+<script src="chessBoard.js"></script>
+</html>
