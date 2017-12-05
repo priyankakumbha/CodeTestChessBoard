@@ -5,7 +5,11 @@ var generateChessBoard = function()
    var boardSize = $( "#boardSize" ).val();
    // console.log(squareSize);
    // console.log(boardSize);
-   generateBoard(boardSize,squareSize);
+   if(boardSize > 50) {
+     alert("Current size limit is 50, to stop  your browser getting overloaded");
+   } else {
+     generateBoard(boardSize,squareSize);
+   }
 }
 
 $( "#genearteBoard" ).click(function() {
