@@ -9,4 +9,4 @@ User can enter number of square size and board size based after clicking submit 
 
 # How to run locally
 User can download this project to local machine run the index page in browser.Make sure JavaScript is enabled.
-Or alternatively user can acess below link directly from the internet.This is hosted on github server.
+Or alternatively user can access below link directly from the internet.This is hosted on github server.
